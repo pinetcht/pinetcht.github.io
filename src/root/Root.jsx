@@ -36,6 +36,7 @@ export const Root = () => {
       <div className="intro">
         <div className="description">
           <div className="title">
+            <h1>test</h1>
             <h1>Hi, I am Pine,  {selectedOption === 'optimizer' ? 'an' : 'a'} </h1>
             <Dropdown options={titles} onSelect={handleSelect}></Dropdown>
 
