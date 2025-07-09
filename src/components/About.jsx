@@ -32,7 +32,7 @@ export const About = () => {
 
           <p>
             Freshly graduated from Pomona College with a CS and linguistics degree, I'm ready for my next adventure! Currently looking for full-stack opportunities, 
-            where I can collaborate on user-focused apps and make big and small changes in a user's experience. 
+            where I can collaborate on user-focused apps and make big and small impacts in user daily experience. 
           </p>
         </div>
 
