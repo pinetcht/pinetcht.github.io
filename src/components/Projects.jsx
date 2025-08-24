@@ -6,11 +6,12 @@ import nlp from "../assets/textgen-tv.png"
 import tastetopia from "../assets/tastetopia.png"
 import playlist from "../assets/p-laylist.png"
 import housing47 from "../assets/housing47.png"
+import { ProjectList } from "../data/ProjectList.js"
 
 const Projects = () => {
     return (
         <>
-            <Project name={"Housing47"}
+            {/* <Project name={"Housing47"}
                 desc="A user-friendly housing selection platform for a visual and stress-free room draw experience"
                 tech="React.js, Maptiler, Express.js, Firebase"
                 pic={housing47}
@@ -20,6 +21,7 @@ const Projects = () => {
                 desc="A music social media platform for personal Spotify profiles, forums, and DMs"
                 tech="Spotify API, React.js, Express.js, Firebase"
                 pic={harmony}
+                link="https://join-harmony.vercel.app/"
                 githubLink="https://github.com/pinetcht/Harmony" />
             <Project name={"Rate My Songs"}
                 desc="Android social app to rate songs based on genres"
@@ -41,7 +43,19 @@ const Projects = () => {
                 desc="Personalized, no-repeats song recommendation based on your music tastes "
                 tech="Docker Compose, Nginx, Flask, Python"
                 pic={playlist}
-                githubLink="https://github.com/pinetcht/p-laylist" />
+                githubLink="https://github.com/pinetcht/p-laylist" /> */}
+
+            {ProjectList.map((project, index) => (
+                <Project
+                    key={index}
+                    name={project.name}
+                    desc={project.desc}
+                    tech={project.tech}
+                    pic={project.pic}
+                    link={project.link}
+                    githubLink={project.githubLink}
+                />
+            ))}
 
         </>
     )

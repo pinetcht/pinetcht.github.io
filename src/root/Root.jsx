@@ -48,7 +48,7 @@ export const Root = () => {
             user-focused and efficient technology solutions. I’m excited to
             leverage my technical experience to solve real-world problems!</p>
 
-          <a href="https://drive.google.com/file/d/1W-6RQx7DA2J78qCnW4SHaerJlY7xm9hT/view?usp=sharing" className="resumeBox" download target="_blank">
+          <a href="https://drive.google.com/file/d/10mixXRCZOUB5bT1GLvgAofYK9DRuPc_G/view?usp=sharing" className="resumeBox" download target="_blank">
             <div>
               Download Resume
             </div>

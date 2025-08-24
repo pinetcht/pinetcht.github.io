@@ -3,7 +3,7 @@ import { Experience } from "../components/Experience.jsx"
 const Experiences = () => {
     return (
         <>
-            <Experience company="The Standard" date="June 2025 - Present"
+            <Experience company="The Standard" date="June 2025 - July 2025"
                 role="IT Infrastructure Intern" location={"Bangkok, Thailand"}
                 desc="Networking " 
                 />
