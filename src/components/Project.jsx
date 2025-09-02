@@ -7,7 +7,11 @@ export const Project = ({ name, desc, tech, pic, link, githubLink }) => {
         <>
 
             <div className="project" >
-                <img className="projPic" src={pic} />
+                <a href={link ? link : githubLink} target="_blank">
+                    <img className="projPic" src={pic} />
+                </a>
+
+                
                 <div className="projectDetails">
                     <h2 style={{ marginBottom: "0px" }}>{name}</h2>
                     <h4 style={{ marginTop: "5px", marginBottom: "5px", }}>{desc}</h4>

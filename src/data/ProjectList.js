@@ -1,7 +1,6 @@
-import harmony from "../assets/harmony.png"
+import harmony from "../assets/harmony3.png"
 import ratemysongs from "../assets/ratemysongs.png"
 import nlp from "../assets/textgen-tv.png"
-import tastetopia from "../assets/tastetopia.png"
 import playlist from "../assets/p-laylist.png"
 import housing47 from "../assets/housing47.png"
 export const ProjectList = [
@@ -34,13 +33,6 @@ export const ProjectList = [
     tech: "NLP, Machine Learning, Java, Python",
     pic: nlp,
     githubLink: "https://github.com/pinetcht/CharacterBasedTextGeneration"
-  },
-  {
-    name: "Tastetopia",
-    desc: "A recipe sharing platform with user and admin features and an AI chatbot assistant",
-    tech: "OpenAI API, React.js, Express.js, Firebase",
-    pic: tastetopia,
-    githubLink: "https://github.com/pinetcht/Tastetopia"
   },
   {
     name: "P-laylist",
